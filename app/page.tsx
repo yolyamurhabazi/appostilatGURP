@@ -87,14 +87,14 @@ export default function Home() {
         <Image src={heroImage} alt="Illustration de bénévoles et d'enfants partageant des fournitures scolaires dans une cour ensoleillée" fill priority sizes="100vw" className="hero-photo" />
         <div className="hero-shade" />
         <div className="container hero-content">
-          <span className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> APOSTOLAT GURP · 2026</span>
+          <span className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> APOSTOLAT GURP · BAGIRA</span>
           <h1 id="hero-title">Un geste de cœur.<br /><em>Une journée d&apos;espoir.</em></h1>
-          <p>Le 6 décembre, retrouvons les enfants de l&apos;orphelinat de Bagira. Ensemble, partageons bien plus que des dons : de la présence, de la joie et de l&apos;espérance.</p>
+          <p><strong className="event-date-inline">Dimanche 6 décembre 2026,</strong> retrouvons les enfants de l&apos;orphelinat de Bagira. Ensemble, partageons bien plus que des dons : de la présence, de la joie et de l&apos;espérance.</p>
           <div className="hero-actions">
             <a className="button button-gold" href="#contribuer">Je souhaite contribuer <ArrowRight size={18} /></a>
             <a className="hero-link" href="#mission">Découvrir la mission <ArrowDownRight size={19} /></a>
           </div>
-          <div className="hero-meta"><span><CalendarDays size={18} /> Dimanche 6 décembre 2026</span><i /><span><MapPin size={18} /> Bagira, RDC</span></div>
+          <div className="hero-meta"><span><MapPin size={18} /> Orphelinat de Bagira, RDC</span><i /><span><Heart size={18} /> Chacun donne selon ses moyens</span></div>
         </div>
         <span className="image-credit">Image d&apos;illustration générée par IA</span>
         <a className="scroll-cue" href="#mission" aria-label="Faire défiler vers la mission"><ChevronDown size={22} /></a>
